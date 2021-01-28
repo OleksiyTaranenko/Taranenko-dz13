@@ -1,0 +1,33 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 10 version
+*/
+
+.div-insta-logo {
+    position: relative;
+    margin: 50px 150px;    
+    width: 340px;
+    height: 340px;        
+    background: -o-linear-gradient(20deg, #ffda7f 10%, #f46d36 25%, #dd2f6f 45%, #9c37bb 90%);        
+    background: linear-gradient(20deg, #ffda7f 10%, #f46d36 25%, #dd2f6f 45%, #9c37bb 90%);    
+    border-radius: 25%;
+}
+
+.span-insta-logo {
+    position: absolute;      
+    width: inherit;
+    height: inherit;    
+    background: -o-linear-gradient(-25deg, transparent, transparent, #3a4cce);    
+    background: linear-gradient(-25deg, transparent, transparent, #3a4cce);    
+    border-radius: 25%;    
+} 
+
+.insta-logo {  
+    margin: 20px 40px;  
+    font-size: 300px;
+    color: #fff;
+    background: transparent;
+    border-radius: 25%;    
+}
